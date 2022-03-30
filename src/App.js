@@ -1,30 +1,21 @@
-import logo from './logo.svg';
+import React , {useState}from 'react' ;
 import './App.css';
+import AboutMe from './components/pages/AboutMe';
+import Projects from './components/pages/Projects';
+import ContactMe from './components/pages/ContactMe';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
 
 function App() {
+  const[page,setPage]= useState(<AboutMe/>)
   return (
     <>
-      <nav className="navbar navbar-dark bg-primary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">Navbar</a>
-        </div>
-      </nav>
+      
+      <NavBar/>
       <main>
-
-        <div className="row">
-
-          <div className="col">
-
-
-            <img src="" alt="biopic"></img>
-          </div>
-
-          <div className="col">
-            <h1>Arya Krishna</h1>
-            <p>Get to know me</p>
-
-          </div>
-        </div>
+{page}
+       
       </main>
     </>
   );
