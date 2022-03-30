@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ProfilePic from '../../images/Profile_Pic.png'
 export default function AboutMe() {
     return (
         <div>
@@ -8,7 +8,7 @@ export default function AboutMe() {
                 <div className="col">
 
 
-                    <img src="" alt="biopic"></img>
+                    <img className = "profilePic" src={ProfilePic} alt="biopic"></img>
                 </div>
 
                 <div className="col">

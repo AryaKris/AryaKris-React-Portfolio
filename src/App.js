@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       
-      <NavBar/>
+      <NavBar setPage ={setPage} />
       <main>
 {page}
-       
+      
       </main>
     </>
   );
