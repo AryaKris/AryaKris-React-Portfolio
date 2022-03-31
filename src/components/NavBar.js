@@ -12,9 +12,8 @@ export default function NavBar({ setPage}) {
                 <h1 className="navbar-brand" >Navbar</h1>
 
                 <div>
-                    
-                    <button onClick={() => setPage(<Projects />)}>Projects</button> 
                     <button onClick={() => setPage(<AboutMe />)}>About Me</button> 
+                    <button onClick={() => setPage(<Projects />)}>Projects</button> 
                     <button onClick={() => setPage(<ContactMe />)}>Contact Me</button> 
                 </div>
             </nav>
