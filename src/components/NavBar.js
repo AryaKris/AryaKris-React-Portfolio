@@ -9,7 +9,7 @@ export default function NavBar({ setPage}) {
         
         <div>
             <nav className="navbar navbar-dark bg-primary d-flex justify-content-between">
-                <h1 className="navbar-brand" >Navbar</h1>
+                <h1 className="navbar-brand" > Arya Krishna</h1>
 
                 <div>
                     <button onClick={() => setPage(<AboutMe />)}>About Me</button> 
