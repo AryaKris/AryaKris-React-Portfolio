@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Trail Buddy",
+        "url": "https://github.com/Jonathan6/Trail-Buddy",
+        "image": "https://placekitten.com/g/640/400",
+        "description": "Trail buddy is a website that allows the user to search for trails in their city, and also gives them information on a trail that they choose. This website also pulls from the Open Weather API to show the weather forcast for next 5 days for a selected trail."
+    },
+    {
+        "id": 2,
+        "title": "Daily Planner",
+        "url": "https://github.com/AryaKris/Daily-planner",
+        "image": "https://placekitten.com/g/640/400",
+        "description": "Inorder to manage my time effectively, I need to create a daily planner. The html and th estyling for the header section is already provided."
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "url": "https://github.com/AryaKris/Weather-Dashboard",
+        "image": "https://placekitten.com/g/640/400",
+        "description": "In order to see the weather outlook for multiple cities building a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Here the OpenWeather One Call API is used to retrieve weather data for cities."
+    }
+]
+
