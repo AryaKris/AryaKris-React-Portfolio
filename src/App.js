@@ -15,9 +15,10 @@ function App() {
       <NavBar setPage ={setPage} />
       <main>
 {page}
-      
+        <Footer />
       </main>
     </>
+    
   );
 }
 
